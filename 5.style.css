@@ -1,0 +1,24 @@
+.room {
+    width: 400px;
+    height: 150px;
+    border: 3px solid seagreen;
+    margin: 10px;
+    display: inline-block;
+    /* ei khane amra bole dilam je ..inline how but block level element e thakbi
+    taile amra block level element er property use korte parbi...> amra jni je 
+    inline element er onk kisu block level element e use kora jai nah */
+}
+
+h1 {
+    background-color: salmon;
+}
+
+.make-block-element {
+    display: block;
+}
+
+p {
+    display: inline;
+    /* inline element likes: width,height, margin -top, margin-bottom nite parbe nah
+    ---- only left and right kisu dile korte parbe */
+}

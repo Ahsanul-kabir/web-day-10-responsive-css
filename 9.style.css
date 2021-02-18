@@ -42,21 +42,21 @@ main {
     margin-right: 20px;
 }
 
-@media (max-width:668px) {
-    .top-players {
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .blog {
-        display: block;
-    }
-}
-
 @media (max-width:992px) {
     .top-players {
         grid-template-columns: repeat(2, 1fr);
     }
     .blogs {
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width:668px) {
+    .top-players {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .blog {
+        display: block;
     }
 }
 
